@@ -1,0 +1,18 @@
+#buka data
+train.csv -> dataframe
+trainLabels.csv -> dataframe
+buat df gabungan train & trainLabels
+---------------------------------------------------------
+
+#visualisasi
+lakkan PCA terhadap df (40 -> 2)
+visualisasi dgn matplotlib.pyplot
+---------------------------------------------------------
+
+#train model skenario 1
+split data : train_test_split
+klasifikasi menggnakan : SVC, NaiveBayes, GradientBoostingClassifier (yg mana yg paling baik)
+
+#train model skenario 2 (di PCA dulu jadi 20 fitur)
+split data : train_test_split
+klasifikasi menggunakan : SVC, NaiveBayes, GradientBoostingClassifier (yg mana yg paling baik)
